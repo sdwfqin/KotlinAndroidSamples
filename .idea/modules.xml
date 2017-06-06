@@ -4,7 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DaggerRxjavaRetrofit/DaggerRxjavaRetrofit.iml" filepath="$PROJECT_DIR$/DaggerRxjavaRetrofit/DaggerRxjavaRetrofit.iml" />
       <module fileurl="file://$PROJECT_DIR$/KotlinAndroidSamples.iml" filepath="$PROJECT_DIR$/KotlinAndroidSamples.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MvpRelam/app.iml" filepath="$PROJECT_DIR$/MvpRelam/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MvpRelam/MvpRelam.iml" filepath="$PROJECT_DIR$/MvpRelam/MvpRelam.iml" />
+      <module fileurl="file://F:\WorkSpace\AndroidStudioProjects\KotlinAndroidSamples\MvpRelam\app.iml" filepath="F:\WorkSpace\AndroidStudioProjects\KotlinAndroidSamples\MvpRelam\app.iml" />
     </modules>
   </component>
 </project>
