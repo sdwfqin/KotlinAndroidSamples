@@ -4,20 +4,19 @@ package com.sdwfqin.daggerrxjavaretrofit.model.bean
  * Created by sdwfqin on 2016/12/7.
  */
 
-data class WeatherModel(var weatherinfo: WeatherinfoBean) {
+data class WeatherModel(
+        var weatherinfo: Weatherinfo
+)
 
-    companion object {
-        data class WeatherinfoBean(var city: String,
-                                   var cityid: String,
-                                   var temp: String,
-                                   var wd: String,
-                                   var ws: String,
-                                   var sd: String,
-                                   var wse: String,
-                                   var time: String,
-                                   // var isRadar: String,
-                                   var radar: String,
-                                   var njd: String,
-                                   var qy: String)
-    }
-}
+data class Weatherinfo(
+        var city: String, // 无锡
+        var cityid: String, // 101190201
+        var temp: String, // 12
+        var WD: String, // 西北风
+        var WS: String, // 2级
+        var SD: String, // 93%
+        var WSE: String, // 2
+        var time: String, // 10:25
+        var njd: String, // 暂无实况
+        var qy: String// 1008
+)

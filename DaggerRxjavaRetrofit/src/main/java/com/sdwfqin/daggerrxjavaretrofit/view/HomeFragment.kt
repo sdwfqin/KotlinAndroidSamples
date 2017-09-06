@@ -3,10 +3,10 @@ package com.sdwfqin.daggerrxjavaretrofit.view
 import com.sdwfqin.daggerrxjavaretrofit.R
 import com.sdwfqin.daggerrxjavaretrofit.base.BaseFragment
 import com.sdwfqin.daggerrxjavaretrofit.model.DataManager
-import com.sdwfqin.daggerrxjavaretrofit.model.bean.WeatherModel
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
 import kotlinx.android.synthetic.main.fragment_home.*
+import org.jetbrains.anko.info
 import javax.inject.Inject
 
 /**
@@ -30,6 +30,9 @@ class HomeFragment : BaseFragment() {
         mDataManager.fetchMingJiaInfo("101190201")
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
-                .subscribe { s -> home_tv.text = s.weatherinfo.toString() }
+                .subscribe { s ->
+                    info { s }
+                    home_tv.text = s.weatherinfo.toString()
+                }
     }
 }
