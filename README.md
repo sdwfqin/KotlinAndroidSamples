@@ -1,5 +1,5 @@
 # Kotlin小例子
-# 开发环境：AndroidStudio 3.0
+# 开发环境：Android Studio 3.0
 # 查看Java版可以移步到：https://github.com/sdwfqin/AndroidSamples
 # 目前包含以下内容：
 
